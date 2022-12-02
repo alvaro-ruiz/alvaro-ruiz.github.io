@@ -1,0 +1,159 @@
+header {
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 6vw;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    align-items: center;
+}
+
+*{
+    margin: auto;
+    padding: 0;
+}
+
+.logopokemmo {
+    display: flexbox;
+    height: 7vw;
+}
+
+.botonrojo {
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    height: 3vw;
+    width: 6vw;
+    border-radius: 2vw;
+    font-family: 'Press Start 2P';
+}
+
+.botonazul {
+    display: flex;
+    background-color: rgb(34, 0, 255);
+    height: 3vw;
+    width: 6vw;
+    border-radius: 2vw;
+    font-family: 'Press Start 2P';
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    text-size-adjust: 20px;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+}
+
+.navcontainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(81, 83, 84);
+    height: 5vw;
+}
+
+.navcuestonario {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(121, 123, 124);
+}
+
+.textoinicio {
+    text-align: center;
+    font-family: 'Press Start 2P';
+}
+
+body {
+    background-color: rgb(154, 155, 156);
+}
+
+.hipno {
+    height: 10vh;
+    background-color: red;
+    position: relative;
+    animation-name: hipno;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    font-family: 'Press Start 2P';
+}
+
+@keyframes hipno {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+.allform{
+    display: flex;
+    align-items: center;
+    font-family: 'Press Start 2P';
+}
+
+.izq{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.der{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(99, 146, 193);
+} 
+.flex-container > div {
+    background-color: rgb(255, 0, 43) ;
+    width: 100px;
+    margin: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 16;
+}
+
+h1{
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Press Start 2P';
+}
+
+p{
+    font-family: 'Press Start 2P';
+    text-size-adjust: 16px;
+}
